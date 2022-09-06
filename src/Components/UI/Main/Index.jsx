@@ -1,6 +1,4 @@
 import React from 'react';
-import DragodindeLeft from '../../../assets/img/dragodindeL.webp';
-import DragodindeRight from '../../../assets/img/dragodindeR.webp';
 import DofusLogo from '../../../assets/img/dofus_Logo.webp';
 
 function Main() {

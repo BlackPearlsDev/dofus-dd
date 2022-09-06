@@ -3,13 +3,13 @@ import { useState, useEffect } from 'react';
 
 // IMPORT ALL DD MODULES
 import Dragodinde1 from '../../UI/Dragodinde/AllGens/Gen1/Index';
-import Dragodinde2 from '../../UI/Dragodinde/Gen2/Index';
-import Dragodinde3 from '../../UI/Dragodinde/Gen3/Index';
-import Dragodinde4 from '../../UI/Dragodinde/Gen4/Index';
-import Dragodinde5 from '../../UI/Dragodinde/Gen5/Index';
-import Dragodinde6 from '../../UI/Dragodinde/Gen6/Index';
-import Dragodinde7 from '../../UI/Dragodinde/Gen7/Index';
-import Dragodinde8 from '../../UI/Dragodinde/Gen8/Index';
+import Dragodinde2 from '../../UI/Dragodinde/AllGens/Gen2/Index';
+import Dragodinde3 from '../../UI/Dragodinde/AllGens/Gen3/Index';
+import Dragodinde4 from '../../UI/Dragodinde/AllGens/Gen4/Index';
+import Dragodinde5 from '../../UI/Dragodinde/AllGens/Gen5/Index';
+import Dragodinde6 from '../../UI/Dragodinde/AllGens/Gen6/Index';
+import Dragodinde7 from '../../UI/Dragodinde/AllGens/Gen7/Index';
+import Dragodinde8 from '../../UI/Dragodinde/AllGens/Gen8/Index';
 
 // IMPORT GESTATIONS MODULES
 import Gestations from '../../UI/Dragodinde/Gestations/Index';
