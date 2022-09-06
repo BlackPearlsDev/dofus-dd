@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&display=swap');é
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Oxanium', cursive;
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #333;
+    background-color: #282c34;
+}
+
+header {
+    text-align: center;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 4rem;
+    transition: all 0.5s;
+}
+
+h1:hover {
+    color: #ffc107;
+    transform: scale(1.05);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffc107;
+    font-size: 2.2rem;
+    transition: all 0.5s;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+
+.imgHome {
+    margin: 5%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.imgHome img {
+    width: 30%;
+    height: auto;
+}
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+    color: whitesmoke;
+}
+
+main h2 {
+    text-align: center;
+}
+
+.generationSelector {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.generationSelector select {
+    background-color: #282c34;
+    color: whitesmoke;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    padding: 6px;
+    font-size: 1.5rem;
+}
+
+.dragodindeZone {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dragodindeCombinaison {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 2% 0 5% 0;
+}
+
+.plusCombinaison {
+    font-size: 4rem;
+}
+
+.divDragoTxt {
+    text-align: center;
+}
+
+h4 {
+    margin: 0;
+}
+
+.txtYellow {
+    color: #ffc107;
+}
+
+p {
+    margin: 6px;
+}
+
+.checkbox-container {
+    padding: 1%;
+}
+
+#gestation-checkbox {
+    margin: 4px;
+}
+
+.articleCapacity {
+    text-align: center;
+}
+
+.articleExample {
+    border: 1px solid #ced4da;
+}
+
+footer {
+    text-align: center;
+    color: whitesmoke;
+}
+
+footer p {
+    font-style: italic;
+
+}
+
+.txtFooter a {
+    text-decoration: none;
+    color: #ffc107;
+    transition: all 0.5s;
+}
+
+.txtFooter a:hover {
+    color: #9d7b17;
+}
