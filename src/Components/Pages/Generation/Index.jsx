@@ -82,7 +82,11 @@ function Generation() {
     }
 
     const handleGestation = (e) => {
-        setGestationVisible(true);
+        if (gestationVisible === false) {
+            setGestationVisible(true);
+        } else {
+            setGestationVisible(false);
+        }
     }
 
     return (
@@ -106,11 +110,15 @@ function Generation() {
                 <h2>Les temps de gestations</h2>
 
                 <div className='checkbox-container'>
-                    <input type="checkbox" id="gestation-checkbox" value="gestationTrue" onChange={handleGestation}/>
-                    <label htmlFor="gestation-checkbox">Voir les temps</label>
+                    <div className='checkbox-text'>
+                        <input type="checkbox" id="gestation-checkbox" value="gestationTrue" onChange={handleGestation}/>
+                        <label htmlFor="gestation-checkbox">Voir les temps</label>
+                    </div>
 
                     <>
+                    <aside>
                         {gestationVisible && <Gestations />}
+                    </aside>
                     </>
 
                 </div>

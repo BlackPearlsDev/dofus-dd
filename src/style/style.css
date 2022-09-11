@@ -125,11 +125,28 @@ p {
 }
 
 .checkbox-container {
+    display: flex;
+    flex-direction: column;
     padding: 1%;
+}
+
+.checkbox-text {
+    display: flex;
+    justify-content: center;
 }
 
 #gestation-checkbox {
     margin: 4px;
+    appearance: none;
+    background-color: #282c34;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 1.15em;
+    height: 1.15em;
+}
+
+#gestation-checkbox:checked {
+    background-color: #ffc107;
 }
 
 .articleCapacity {
