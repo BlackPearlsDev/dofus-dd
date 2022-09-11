@@ -150,6 +150,10 @@ p {
     background-color: #ffc107;
 }
 
+.checkbox-text:hover {
+    color: #ffc107;
+}
+
 .articleCapacity {
     text-align: center;
 }

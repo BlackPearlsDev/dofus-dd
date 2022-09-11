@@ -7,7 +7,7 @@ function Dragodinde(props) {
                 <div className='divDragoTxt'>
                     <img src={props.imgUrl1} alt="Dragodinde Indigo et Pourpre" />
                     <h4>Dragondinde <span className='txtYellow'>Indigo et Pourpre</span></h4>
-                    <p><span className='txtYellow'>Stats:</span>  300 Vitalité, 70 Force, 70 Chance</p>
+                    <p><span className='txtYellow'>Stats:</span>  100 Vitalité, 50 Force, 50 Chance</p>
                 </div>
 
                 <h3 className='plusCombinaison'>+</h3>
@@ -15,13 +15,13 @@ function Dragodinde(props) {
                 <div className='divDragoTxt'>
                     <img src={props.imgUrl2} alt="Dragodinde Orchidée et Pourpre" />
                     <h4>Dragondinde <span className='txtYellow'>Orchidée et Pourpre</span></h4>
-                    <p><span className='txtYellow'>Stats:</span>  300 Vitalité, 70 Force, 70 Intelligence</p>
+                    <p><span className='txtYellow'>Stats:</span>  100 Vitalité, 50 Force, 50 Intelligence</p>
                 </div>
 
                 <div className='divDragoTxt'>
                     <img src={props.imgUrl3} alt="Dragodinde Ebène et Orchidée" />
                     <h4>Dragondinde <span className='txtYellow'>Ebène et Orchidée</span></h4>
-                    <p><span className='txtYellow'>Stats:</span>  300 Vitalité, 70 Intelligence, 70 Agilité</p>
+                    <p><span className='txtYellow'>Stats:</span>  100 Vitalité, 50 Intelligence, 50 Agilité</p>
                 </div>
 
                 <h3 className='plusCombinaison'>+</h3>
@@ -29,7 +29,7 @@ function Dragodinde(props) {
                 <div className='divDragoTxt'>
                     <img src={props.imgUrl2} alt="Dragodinde Orchidée et Pourpre" />
                     <h4>Dragondinde <span className='txtYellow'>Orchidée et Pourpre</span></h4>
-                    <p><span className='txtYellow'>Stats:</span>  300 Vitalité, 70 Force, 70 Intelligence</p>
+                    <p><span className='txtYellow'>Stats:</span>  100 Vitalité, 50 Force, 50 Intelligence</p>
                 </div>
             </article>
 
@@ -38,14 +38,14 @@ function Dragodinde(props) {
                     <img src={props.imgUrl4} alt="Dragodinde Ivoire" />
                     <h4>Dragondinde <span className='txtYellow'>Ivoire</span></h4>
                     <p><span className='txtYellow'>Combinaison:</span> Indigo Pourpre et Orchidée Pourpre</p>
-                    <p><span className='txtYellow'>Stats:</span>  300 Vitalité, 70 Puissance</p>
+                    <p><span className='txtYellow'>Stats:</span>  50 Vitalité, 50 Puissance</p>
                 </div>
 
                 <div className='divDragoTxt'>
                     <img src={props.imgUrl5} alt="Dragodinde Turquoise" />
                     <h4>Dragondinde <span className='txtYellow'>Turquoise</span></h4>
                     <p><span className='txtYellow'>Combinaison:</span> Ebène Orchidée et Orchidée Pourpre</p>
-                    <p><span className='txtYellow'>Stats:</span>  300 Vitalité, 80 Prospection</p>
+                    <p><span className='txtYellow'>Stats:</span>  50 Vitalité, 80 Prospection</p>
                 </div>
             </article>
         </section>
